@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Datadetector by Carlos001</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Datadetector</h1>
+        <p>Demo app showcasing NSDataDetector.</p>
+
+        <p class="view"><a href="https://github.com/Carlos001/DataDetector">View the Project on GitHub <small>Carlos001/DataDetector</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/Carlos001/DataDetector/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Carlos001/DataDetector/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/Carlos001/DataDetector">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a name="what-is-nsdatadetector" class="anchor" href="#what-is-nsdatadetector"><span class="octicon octicon-link"></span></a>What is NSDataDetector?</h3>
+
+<p>NSDataDetector is a handy class which can accurately match data types found in complicated expressions. Just pass in your strings, and the API will tell whether it is an address, a phone number, a link or a date. 
+See also this great article that inspired me in wringing this demo app:
+<a href="http://nshipster.com/nsdatadetector/">NSDataDetector on NSHipster</a></p>
+
+<h3>
+<a name="how-it-works" class="anchor" href="#how-it-works"><span class="octicon octicon-link"></span></a>How it works?</h3>
+
+<p>Run the project on the Simulator or a real device. Note that the minimum deployment target is iOS 7.0.
+In the ViewController.m check out the <code>- (IBAction)stringChanged:(UITextField*)sender</code> method. The data detection work is done via the <code>NSDataDetector enumerateMatchesInString:</code> API call. The only precondition is to properly initialize the NSDataDetector instance (see ViewController viewDidLoad method).</p>
+
+<h3>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>Karoly Nyisztor (<a href="https://github.com/Carlos001" class="user-mention">@Carlos001</a>)</p>
+
+<h3>
+<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p><a href="mailto:carlos@nyisztorkaroly.org">carlos@nyisztorkaroly.org</a>
+<a href="http://www.leakka.com">www.leakka.com</a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/Carlos001">Carlos001</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
