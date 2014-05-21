@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BC4D69D1-BCE6-4EC3-8E77-0233A2C0779F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DataDetector</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6CC089B7-BC74-45F7-B539-EAF040333D4A</key>
+		<string>https://github.com/Carlos001/DataDetector.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DataDetector.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6CC089B7-BC74-45F7-B539-EAF040333D4A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Carlos001/DataDetector.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6CC089B7-BC74-45F7-B539-EAF040333D4A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6CC089B7-BC74-45F7-B539-EAF040333D4A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DataDetectorWorkingCopy</string>
+		</dict>
+	</array>
+</dict>
+</plist>
